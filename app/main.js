@@ -3,9 +3,9 @@ import 'stylesheets/main';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import { HelloWorld } from 'components';
+import { Application } from 'components';
 
 ReactDOM.render(
-  <HelloWorld foo="bars" />,
+  <Application />,
   document.querySelector('.app')
 );
